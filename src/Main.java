@@ -1,21 +1,66 @@
+//NAME - KIDUS ABBAY
 import java.util.Scanner;
 
-public class Main {
-    public static void main(String[] args) {
+public class Main
+{
+    public static void main (String[] args)
+    {
         Scanner keyboard = new Scanner(System.in);
+        //add more variables, at least 2 of each type:
+        //double, float, short, String
+        int intOne, intTwo;
+        double doubleOne, doubleTwo;
+        float floatOne, floatTwo;
+        short shortOne, shortTwo;
+        String stringOne, stringTwo;
 
-        System.out.println(" wat u pi");
-        double myPiVal = keyboard.nextDouble();
+        System.out.print("Enter an integer :: ");
+        intOne = keyboard.nextInt();
+        
+        System.out.print("Enter an integer :: ");
+        intTwo = keyboard.nextInt();
+
+        System.out.print("Enter a double :: ");
+        doubleOne = keyboard.nextDouble();
+        
+        System.out.print("Enter a double :: ");
+        doubleTwo = keyboard.nextDouble();
+
+        System.out.print("Enter a float :: ");
+        floatOne = keyboard.nextFloat();
+        
+        System.out.print("Enter a float :: ");
+        floatTwo = keyboard.nextFloat();
+
+        System.out.println("Enter a short :: ");
+        shortOne = keyboard.nextShort();
+        
+        System.out.println("Enter a short :: ");
+        shortTwo = keyboard.nextShort();
 
         keyboard.nextLine();
 
-        System.out.println("what ur name");
-        String name = keyboard.nextLine();
+        System.out.println("Enter a string :: ");
+        strOne = keyboard.nextLine();
+        
+        System.out.println("Enter a string :: ");
+        strTwo = keyboard.nextLine();
 
-        System.out.println("how old r u");
-        int age = keyboard.nextInt();
+        //add in input for all variables
 
-        System.out.println("Your name is " + name);
-        System.out.println("you are " + age + " years old");
+        System.out.println("integer one = " + intOne );
+        System.out.println("integer two = " + intTwo );
+        System.out.println("double one = " + doubleOne );
+        System.out.println("double two = " + doubleTwo );
+        System.out.println("float one = " + floatOne );
+        System.out.println("float two = " + floatTwo );
+        System.out.println("short one = " + shortOne );
+        System.out.println("short two = " + shortTwo );
+        System.out.println("string one = " + stringOne );
+        System.out.println("string two = " + stringTwo );
+
+        //add output for all variables
+
+
     }
 }
